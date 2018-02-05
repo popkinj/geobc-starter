@@ -7,6 +7,7 @@ Node and Git must be installed to run this application. See [here](https://nodej
 ```
 git clone git@github.com:popkinj/geobc-starter.git
 cd geobc-starter
+npm install
 npm start
 ```
 
