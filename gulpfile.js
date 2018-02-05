@@ -46,6 +46,7 @@ gulp.task('build-js', function () {
 /* Dependency code */
 gulp.task('build-components', function () {
   gulp.src([
+    'node_modules/jquery/dist/jquery.js'
   ]).pipe(concat('components.js'))
     .pipe(gulp.dest('www'));
 });
