@@ -2,10 +2,18 @@
   "name": "geobc-starter",
   "version": "0.2.0",
   "description": "Web application starter kit",
-  "main": "index.js",
+  "main": "lib/js/start.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:popkinj/geobc-starter.git"
+  },
   "author": "Jamie Popkin <popkinj@littleearth.ca> (https://littleearth.ca)",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "dependencies": {
+    "compression": "^1.7.1",
+    "express": "^4.16.2"
+  }
 }
