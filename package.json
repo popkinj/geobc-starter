@@ -15,5 +15,14 @@
   "dependencies": {
     "compression": "^1.7.1",
     "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-plumber": "^1.2.0",
+    "gulp-watch": "^5.0.0",
+    "run-sequence": "^2.2.1"
   }
 }
