@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-Node must be installed to run this application. See [here](https://nodejs.org/en/download/) for more details.
+Node and Git must be installed to run this application. See [here](https://nodejs.org/en/download/) for Node and [here](https://git-scm.com/downloads) for Git.
 
 ```
 git clone git@github.com:popkinj/geobc-starter.git
