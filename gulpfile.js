@@ -37,9 +37,10 @@ gulp.task('build-images', function () {
 /* Custom code concatenated */
 gulp.task('build-js', function () {
   gulp.src([
-    'lib/js/*'
+    'lib/js/index.js'
   ]).pipe(concat('index.js'))
-    .pipe(gulp.dest('www'));
+    .pipe(gulp.dest('www'))
+    .pipe(livereload());
 });
 
 /* Dependency code */
@@ -54,7 +55,8 @@ gulp.task('build-css', function () {
   gulp.src([
     'lib/css/*'
   ]).pipe(concat('index.css'))
-    .pipe(gulp.dest('www'));
+    .pipe(gulp.dest('www'))
+    .pipe(livereload());
 });
 
 /* Custom content */
@@ -62,7 +64,8 @@ gulp.task('build-html', function () {
   gulp.src([
     'lib/html/*'
   ])
-    .pipe(gulp.dest('www'));
+    .pipe(gulp.dest('www'))
+    .pipe(livereload());
 });
 
 /* Listen for changes to css, js, and html
