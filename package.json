@@ -1,0 +1,11 @@
+{
+  "name": "geobc-starter",
+  "version": "0.2.0",
+  "description": "Web application starter kit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jamie Popkin <popkinj@littleearth.ca> (https://littleearth.ca)",
+  "license": "UNLICENSED"
+}
