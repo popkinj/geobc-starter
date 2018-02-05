@@ -4,6 +4,7 @@
   "description": "Web application starter kit",
   "main": "lib/js/start.js",
   "scripts": {
+    "start": "node lib/js/start.js & gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
