@@ -22,6 +22,7 @@ gulp.task('default', function (cb) {
     'watch'],cb);
 });
 
+/* Delete everything in the public folder */
 gulp.task('clean', function (cb) {
     return del(['www'], cb);
 });
@@ -64,6 +65,9 @@ gulp.task('build-html', function () {
     .pipe(gulp.dest('www'));
 });
 
+/* Listen for changes to css, js, and html
+ * Move to www and refresh the browser
+ */
 gulp.task('watch', function () {
   livereload.listen();
   watch ('lib/js/*.js', function () {gulp.start('build-js');});
